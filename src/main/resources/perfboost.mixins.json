@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.perfboost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MobAiThrottleMixin"
+  ],
+  "client": [
+    "ParticleManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
