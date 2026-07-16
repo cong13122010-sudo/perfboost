@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "perfboost",
+  "version": "${version}",
+  "name": "PerfBoost",
+  "description": "Toi uu hieu suat cho thiet bi cau hinh thap: tat particle va giam tan suat AI cua entity xa/ngoai tam nhin.",
+  "authors": ["Ban"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.perfboost.PerfBoostMod"]
+  },
+  "mixins": [
+    "perfboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
